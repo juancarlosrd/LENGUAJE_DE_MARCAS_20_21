@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "ejercicio2entregable.dtd">
+<Libro Catalogo="Grupo Planeta">
+    <Titulo>El Conde Lucanor </Titulo>
+    <Seccion>25 </Seccion>
+    <SubSeccion> dsgsg</SubSeccion>
+    <Contenido>
+        <capitulo materia="XML">
+            <Tema>Un hombre que leia historias de amor</Tema>
+            <Separacion></Separacion>
+            <Copyright>Derechos de autor</Copyright>
+        </capitulo>
+        <capitulo materia="XML">
+            <Tema>Mas allá</Tema>
+            <Copyright>Derechos de autor</Copyright>
+        </capitulo>
+         <capitulo materia="XML">
+            <Tema>Peter Pan</Tema>
+            <Copyright>Derechos de autor</Copyright>
+        </capitulo>
+    </Contenido>
+</Libro>
