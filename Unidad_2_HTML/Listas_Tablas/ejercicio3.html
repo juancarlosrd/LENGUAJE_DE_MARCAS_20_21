@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <form action="/action_page.php">
+        <table border="0">
+            <h3 style="text-align: center; width: 350px; height: 20px; background-color: darkcyan;">IES Alixar Login</h3>
+            <tr>
+                <td><label for="nombre">Usuario:</label></td>
+                <td><input type="text" name="nombre" /></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="text" name="password" /></td>
+            </tr>
+            <tr>
+                <td><label for="fecha">Fecha de nacimiento:</label></td>
+                <td><input type="date" style="height: 20px; width: 115px;"></td>
+            </tr>
+            <tr>
+                <td><label for="matriculación">Curso de matriculación</label></td>
+                <td>
+                    <select id="lista" name="lista" style="height:30px; width: 120px; border-radius: 5px; background: rgb(236, 233, 233);">
+                    <option value="curso">Segundo DAW2</option>
+                    <option value="curso">Primero DAW1</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Role:
+                    <ul>
+                        <td>
+
+                            <input type="radio" name="role" value="role"><strong>Estudiante</strong><br />
+                            <input type="radio" name="role" value="role"><strong>Profesor</strong><br />
+                            <input type="radio" name="role" value="role"><strong>Apoyo</strong><br />
+                            <input type="radio" name="role" value="role"><strong>Staff</strong><br />
+                            <input type="checkbox" name="role" value="role"><strong>Mail</strong><br />
+                        </td>
+                    </ul>
+                </td>
+            </tr>
+            <td>Forma de comunicación:
+                <td><input type="checkbox" name="role" value="role"><strong>Teléfono</strong></td><br />
+            </td>
+            <tr>
+                <td>
+                    <td><input type="checkbox" name="role" value="role"><strong>Correo ordinario</strong></td><br />
+                </td>
+            </tr>
+            <th>
+                <input type="submit" value="Enviar" style="color: black;height:20px; width: 100px; height: 30px; margin-left: 70px; border-radius: 5px;">
+                <td><input type="reset" value="Borrar" style="color: black;height:20px; width: 100px; height: 30px; margin-left: 20px; border-radius: 5px;">
+                </td>
+            </th>
+        </table>
+    </form>
+
+</body>
+
+</html>
