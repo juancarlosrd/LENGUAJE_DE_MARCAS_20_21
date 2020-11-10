@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de inscripción</title>
+</head>
+
+<body>
+    <form action="/action_page.php">
+        <h1 style="text-align: center;">HOJA DE INCRIPCIÓN<br> EN LOS CICLOS FORMATIVOS DE GRADO SUPERIO</h1>
+        <fieldset style="border:6px groove #ccc; background:#cbcbcb">
+            <legend style="background-color: white; border: 1px solid black;">Datos Personales</legend>
+            <table>
+                <tr>
+                    <td><label for="nombre ">Nombre:</label><br>
+                        <input style="width: 180px;" type="texto" name="nombre"></td>
+                    <td><label for="apellidos">Apellidos:</label><br>
+                        <input type="texto" name="apellidos"></td>
+                    <td><label for="dn">DNI:</label><br>
+                        <input type="texto" name="dni"></td>
+                </tr>
+                <tr>
+                    <td><label for="localidad">Localidad de Nacimiento:</label><br>
+                        <input type="texto" name="localidad"></td>
+                    <td><label for="provincia">Provincia</label><br>
+                        <select name="provincia" style="height:23px; width: 120px; border-radius: 5px; background: rgb(236, 233, 233); ">
+                            <option value="provincia">Almería</option>
+                            <option value="provincia">Cádiz</option>
+                            <option value="provincia">Jaén</option>
+                            <option value="provincia">Málaga</option>
+                            <option value="provincia">Córdoba</option>
+                            <option value="provincia">Huelva</option>
+                            <option value="provincia">Granada</option>
+                            <option value="provincia">Sevilla</option>
+                        </select>
+                    </td>
+                    <td><label for="fecha_nacimiento ">Fecha de Nacimiento:</label><br>
+                        <input type="date" style="height: 20px; width: 140px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="direccion ">Dirección:</label><br>
+                        <input style="width: 280px;" type="texto" name="direccion "></td>
+                    <td><label for="codigo_postal">Código Postal:</label><br>
+                        <input type="texto" name="Código Postal "></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="border:2px groove gray; background:#ffe3c2">
+            <legend style="background-color: white; border: solid 1px black;">Forma de Accceso</legend><br>
+            <input type="radio" name="role" value="role">Direct<br>
+            <ul style="list-style-type: none;">
+                <input type="radio" name="role" value="role">Bachillerato LOGSE. Modalidad
+                <input type="texto" name="Bachillerato"><br>
+                <input type="radio" name="role" value="role">Bachillerato Experimental <br>
+                <input type="radio" name="role" value="role">COU. Opcion
+                <input type="texto" name="COU"><br>
+                <input type="radio" name="role" value="role">FP2 <br>
+                <input type="radio" name="role" value="role">Otros (especifique)
+                <input type="texto" name="Bachillerato"><br>
+            </ul>
+            <input type="radio" name="role" value="role">Prueba Libre
+        </fieldset>
+        <fieldset style="border:2px groove gray; background: #ef7f7f">
+            <legend style="background-color: white; border: solid 1px black">Documentos Adjuntados</legend>
+            <input type="checkbox" name="role" value="role">Fotocopia DNI
+            <input style="margin-left: 95px;" type="checkbox" name="role" value="role">Certificado Académico<br>
+            <input type="checkbox" name="role" value="role">Otros Documentos(especifique)
+            <input style="width: 250px;" type="texto" name="texto">
+        </fieldset>
+        <input type="submit" value="Enviar Solicitud" style="color: black;height:20px; width: 120px; height: 20px; margin-top: 10px; border-radius: 2px;">
+    </form>
+</body>
+
+</html>
