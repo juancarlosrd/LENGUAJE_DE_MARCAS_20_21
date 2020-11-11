@@ -8,8 +8,8 @@
 </head>
 
 <body>
-    <form action="/action_page.php">
-        <h1 style="text-align: center;">HOJA DE INCRIPCIÓN<br> EN LOS CICLOS FORMATIVOS DE GRADO SUPERIO</h1>
+    <form>
+        <h1 style="text-align: center;">HOJA DE INSCRIPCIÓN<br> EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
         <fieldset style="border:6px groove #ccc; background:#cbcbcb">
             <legend style="background-color: white; border: 1px solid black;">Datos Personales</legend>
             <table>
@@ -49,18 +49,21 @@
         </fieldset>
         <fieldset style="border:2px groove gray; background:#ffe3c2">
             <legend style="background-color: white; border: solid 1px black;">Forma de Accceso</legend><br>
-            <input type="radio" name="role" value="role">Direct<br>
-            <ul style="list-style-type: none;">
-                <input type="radio" name="role" value="role">Bachillerato LOGSE. Modalidad
-                <input type="texto" name="Bachillerato"><br>
-                <input type="radio" name="role" value="role">Bachillerato Experimental <br>
-                <input type="radio" name="role" value="role">COU. Opcion
-                <input type="texto" name="COU"><br>
-                <input type="radio" name="role" value="role">FP2 <br>
-                <input type="radio" name="role" value="role">Otros (especifique)
-                <input type="texto" name="Bachillerato"><br>
+            <ul style="list-style-type: none">
+                <li><input type="radio" name="modo" value="directo">Directo<br>
+                    <ul style="list-style-type: none">
+                        <input type="radio" name="role" value="role">Bachillerato LOGSE. Modalidad
+                        <input type="texto" name="Bachillerato"><br>
+                        <input type="radio" name="role" value="role">Bachillerato Experimental <br>
+                        <input type="radio" name="role" value="role">COU. Opcion
+                        <input type="texto" name="COU"><br>
+                        <input type="radio" name="role" value="role">FP2 <br>
+                        <input type="radio" name="role" value="role">Otros (especifique)
+                        <input type="texto" name="Bachillerato"><br>
+                    </ul>
+                </li>
+                <li><input type="radio" name="role" value="role">Prueba Libre</li>
             </ul>
-            <input type="radio" name="role" value="role">Prueba Libre
         </fieldset>
         <fieldset style="border:2px groove gray; background: #ef7f7f">
             <legend style="background-color: white; border: solid 1px black">Documentos Adjuntados</legend>

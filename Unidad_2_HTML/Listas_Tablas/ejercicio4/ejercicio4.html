@@ -9,61 +9,56 @@
 
 <body>
     <h2 style="margin-left: 85px;">TRES EN RAYA</h2>
-    <table border="3">
+    <form>
+        <table border="3">
+            <tr>
+                <td></td>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><img style="width: 100px;" src="cross.png"></td>
+                <td></td>
+                <td><img style="width: 100px;" src="ok.png"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td><img style="width: 100px;" src="cross.png"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><img style="width: 100px;" src="ok.png"> </td>
+                <td></td>
+                <td><img style="width: 100px;" src="cross.png"></td>
+            </tr>
+        </table>
+        <br>
         <tr>
-            <td></td>
-            <td>A</td>
-            <td>B</td>
-            <td>C</td>
+            <td>Turno para jugador Uno</td>
         </tr>
+        <br>
         <tr>
-            <td>1</td>
-            <td><img style="width: 100px;" src="cross.png"></td>
-            <td></td>
-            <td><img style="width: 100px;" src="ok.png"></td>
+            <td><label for="numero">Fila</label></td>
+            <td>
+                <input style="margin-left: 34px; margin-top: 5px; border-radius: 3px; width: 180px;" type="number" name="numero">
+            </td>
         </tr>
+        </br>
         <tr>
-            <td>2</td>
-            <td></td>
-            <td><img style="width: 100px;" src="cross.png"></td>
-            <td></td>
+            <td><label for="numero">Columna</label></td>
+            <td>
+                <input style="width: 180px; margin-top: 6px; border-radius: 3px;" type="number" name="numero">
+            </td>
         </tr>
+        </br>
         <tr>
-            <td>3</td>
-            <td><img style="width: 100px;" src="ok.png"> </td>
-            <td></td>
-            <td><img style="width: 100px;" src="cross.png"></td>
+            <input type="submit" value="Enviar" style="color: black;height:20px; width: 100px; height: 30px; margin-left: 70px; margin-top: 5px; border-radius: 5px;">
         </tr>
-    </table>
-    <br>
-    <tr>
-        <td>Turno para jugador Uno</td>
-    </tr>
-    </br>
-    <tr>
-        <td><label for="nombre">Fila</label></td>
-        <td>
-            <select name="Fila" style="height:20px; width: 180px; margin-left: 34px; border-radius: 5px; background: white;">
-            <option value="Fila">1</option>
-            <option value="Fila">2</option>
-            <option value="Fila">3</option>
-            </select>
-        </td>
-    </tr>
-    </br>
-    <tr>
-        <td><label for="nombre">Columna</label></td>
-        <td>
-            <select name="Columna" style="height:20px; width: 180px; border-radius: 5px; background: white;">
-            <option value="Columna">1</option>
-            <option value="Columna">2</option>
-            <option value="Columna">3</option>
-            </select>
-    </tr>
-    </br>
-    <tr>
-        <input type="submit" value="Enviar" style="color: black;height:20px; width: 100px; height: 30px; margin-left: 70px; margin-top: 5px; border-radius: 5px;">
-    </tr>
+    </form>
 </body>
 
 </html>
