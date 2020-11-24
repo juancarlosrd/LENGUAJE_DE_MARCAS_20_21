@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla mp4</title>
+    <link rel="stylesheet" href="css/estilos.css" type="text/css" />
+</head>
+
+<body>
+    <h1>Ejercicio práctico con tablas</h1>
+    <table>
+        <tr>
+            <td></td>
+            <td colspan="3"><img src="img/120_ipod.png"></td>
+            <td colspan="3"><img src="img/100_ipod.png"></td>
+        </tr>
+        <tr id="fila">
+            <td class="rojo">Capacidad</td>
+            <id class="fila">
+                <td class="gb">2GB</td>
+                <td class="gb">4GB</td>
+                <td class="gb">8G</td>
+                <td class="gb">32G</td>
+                <td class="gb">2GB</td>
+            </id>
+        </tr>
+        <tr id="lista">
+            <td class="rojo">Colores</td>
+            <td>Blanco</td>
+            <td>
+                <ul>
+                    <li>Negro</li>
+                    <li>Rosa</li>
+                    <li>Dorado</li>
+                </ul>
+            </td>
+            <td>Negro</td>
+            <td colspan="3">
+                <ul>
+                    <li>Negro</li>
+                    <li>Blanco</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="rojo">Pantalla</td>
+            <td colspan="3">3 pulgadas</td>
+            <td colspan="3">7 pulgadas</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="rojo">Tiempo<br> de Carga</td>
+            <td colspan="3" rowspan="2">1 hora</td>
+            <td colspan="3" id="horas">5 horas</td>
+        </tr>
+        <tr>
+            <td colspan="2">30 minutos para <br> el 75%</td>
+        </tr>
+    </table>
+</body>
+
+</html>

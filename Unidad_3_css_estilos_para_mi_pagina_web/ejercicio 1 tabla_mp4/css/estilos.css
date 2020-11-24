@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.rojo {
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#fila .gb {
+    font-size: 3rem;
+    text-align: center;
+    background-color: gray;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+#lista li {
+    color: red;
+}
+
+#horas {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: yellow;
+    text-align: center;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0px auto;
+    width: 50%;
+}
+
+td,
+th {
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+
+[colspan="2"],
+[colspan="3"] {
+    background-color: blue;
+}
