@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+</head>
+
+<body>
+    <form method="post" action="destination.html">
+        <fieldset style="border-right-color: blue;border-left-color: blue;border-top-color: blue;border-bottom-color: blue;" id="z">
+            <h1 style="font-family:arial">Reservation Request</h1>
+            <fieldset id="a">
+                <legend style="color:blue;font-family:arial"><strong>General Information</strong></legend>
+                <table>
+                    <tr>
+                        <td>Arrival date: </td>
+                        <td><input type="date"></td>
+                        <td style="color:red">Arrival date is invalid</td>
+                    </tr>
+                    <tr>
+                        <td>Nigths:</td>
+                        <td><input type="text"></td>
+                        <td style="color:red">Nigths must be a number</td>
+                    </tr>
+                    <tr>
+                        <td>Adults:</td>
+                        <td>
+                            <select>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td>Children:</td>
+                        <td><select>
+                                <option value="">0</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                            </select></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset id="b">
+                <legend style="color:blue;font-family:arial"> <b>Preferences</b></legend>
+                <table>
+                    <tr>
+                        <td>Room type:</td>
+                        <td><input type="radio">Standard</td>
+                        <td><input type="radio">Business</td>
+                        <td><input type="radio">Suite</td>
+                    </tr>
+                    <tr>
+                        <td>Bed type:</td>
+                        <td><input type="radio">King</td>
+                        <td><input type="radio">Double Double</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox">Smoking</td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset id="c">
+                <legend style="color: blue;font-family:arial" ;><b>Contact Information</b></legend>
+                <table>
+                    <tr>
+                        <td>Name:
+                            <input type="text" name="1" size="20" /></td>
+                        <td style="color:red">Name is required</td>
+                        <tr>
+                            <td>Email:
+                                <input type="text" name="1" size="20" />
+                                <td style="color:red">Email address is invalid</td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Phone:
+                                <input type="text" name="1" size="20" />
+                                <td style="color:red">Phone number is invalid</td>
+                            </td>
+
+                        </tr>
+                </table>
+            </fieldset>
+            <input style="width: 170px" type="submit" value="Submit Reservation">
+            <input style="width: 170px;" type="reset" value="Clear">
+        </fieldset>
+    </form>
+</body>
+
+</html>
