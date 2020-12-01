@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+table,
+td,
+th {
+    border: black solid 1px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    margin-left: 210px;
+    color: green;
+}
+
+a:visited {
+    color: red;
+}
+
+td:first-child {
+    background-color: green;
+}
+
+tr:nth-last-of-type(3) {
+    background-color: yellow;
+}
+
+tr td:last-of-type:hover,
+th td:last-of-type:hover {
+    font-size: 2rem;
+}
+
+thead tr th::first-letter {
+    font-size: 2rem;
+}
+
+input:required {
+    border: 5px solid red;
+    padding: 10px;
+}
+
+label::after {
+    color: red;
+    content: "*";
+}

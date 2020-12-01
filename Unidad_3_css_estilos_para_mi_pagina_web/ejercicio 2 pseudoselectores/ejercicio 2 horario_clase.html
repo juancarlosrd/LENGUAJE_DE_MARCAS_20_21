@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario de clase</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<style>
+
+</style>
+
+<body>
+    <a href="http://aulavirtual.iesalixar.org/login/index.php" target="blank">HORARIO DE CLASE CURSO 2018-2019</a>
+    <table>
+        <thead>
+            <tr>
+                <th>HORAS</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>8:00</td>
+            <td rowspan="2">Matemáticas</td>
+            <td>Lengua</td>
+            <td>Inglés</td>
+            <td colspan="2">Ciencias</td>
+        </tr>
+        <tr>
+            <td>9:00</td>
+            <td>Historia</td>
+            <td>Ciencias</td>
+            <td>Matemáticas</td>
+            <td>Lengua</td>
+        </tr>
+        <tr>
+            <td>10:00</td>
+            <th colspan="5"><strong>RECREO</strong></th>
+        </tr>
+        <tr>
+            <td>10:30</td>
+            <td>Inglés</td>
+            <td rowspan="2">Ciencias</td>
+            <td>Matemáticas</td>
+            <td>Lengua</td>
+            <td>Historia</td>
+        </tr>
+        <tr>
+            <td>11:30</td>
+            <td>Historia</td>
+            <td>Ciencias</td>
+            <td>Matemáticas</td>
+            <td>Inglés</td>
+        </tr>
+    </table>
+    <form method="post" action="destination.html">
+        <p>
+            <tr>
+                <td><label for="nombre ">Email</label>
+                    <input type="email" placeholder="Inserte email del destinario" style="width: 200px; height: 30px;" required></td>
+            </tr>
+        </p>
+        <tr>
+            <input type="submit" value="Enviar Horario" style="border-radius: 7px; background-color: honeydew; height: 30px;">
+        </tr>
+    </form>
+</body>
+
+</html>
