@@ -1,0 +1,13 @@
+Ejercicio1
+e.- Estudia, analiza y comprende cada uno de los comportamientos de los elementos definidos en la hoja de estilos.
+body {background-color: tan}
+El selector body da color a toda la página del html con el valor propiedad background.
+El selector h1 que se utiliza para títulos frecuentemente , da color y tamaño al titulo Jabberwocky
+El selector hr que sirve para separar un texto de otro o un párrafo. con propiedad color navy , hace la linea azul.
+La etiqueta p con propiedad font-size: 12px da tamaño a las letras del parráfo que empieza por He took . Y también da un margin left de
+60px , que quiere decir margen izquierdo.
+La etiqueta p con propiedad p.verse, da color marrón y margen izquierdo de 60px, al primer párrafo, donde empieza Twas brillig.
+La a:link, sirve para que salga el enlace en verde.
+El a:visited, vale para cuando hayamos visitado la página se ponga en amarillo.
+El a:hover, vale para cuando pase con el puntero del ratón se ponga en negro.
+El a:active, vale para cuando cambies de idioma el french pase a azul.
