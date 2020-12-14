@@ -6,9 +6,6 @@ table,
 td,
 th {
     border: black solid 1px;
-}
-
-table {
     border-collapse: collapse;
 }
 
@@ -18,11 +15,11 @@ a {
 
 a:link {
     margin-left: 210px;
-    color: green;
+    color: red;
 }
 
 a:visited {
-    color: red;
+    color: green;
 }
 
 td:first-child {
@@ -33,8 +30,8 @@ tr:nth-last-of-type(3) {
     background-color: yellow;
 }
 
-tr td:last-of-type:hover,
-th td:last-of-type:hover {
+tr th:last-child:hover,
+tr td:last-child:hover {
     font-size: 2rem;
 }
 
